@@ -105,7 +105,7 @@ abrirTelaCheia();
       if(startTimerCount <= -1) {
         clearInterval(startTimer);
         startTimerElementNum.innerText = "GO!";
-        startTimerElementNum.style.color = "#7CFC00";
+        startTimerElementNum.style.color = "#D70654";
         startTimerElementNum.style.fontFamily = '"Rubik Wet Paint", sans-serif';
         setTimeout(() => {
           startTimerElementNum.style.display = "none";
@@ -148,10 +148,10 @@ function endGame() {
 
   const finalScore = (score / maxScore) * 100;
   let msg;
-  if(finalScore < 33) msg = "Rank C: Zombie Novice - Keep practicing! You can do it! Practice is the key!";
-  if(finalScore >= 33 && finalScore < 66) msg = "Rank B: Undead Exterminator - You are a true Zombie Hunter!";
-  if(finalScore >= 66 && finalScore < 99) msg = "Rank A: Zombie Slayer - You are a true Zombie Hunter!";
-  if(finalScore === 100) msg = "Rank S: Apocalypse Conqueror - We will need you when the Zombie Apocalypse comes!";
+  if(finalScore < 33) msg = "Rank C: Zombie Novice - Keep going! Every shot counts! Practice makes perfect!";
+  if(finalScore >= 33 && finalScore < 66) msg = "Rank B: Undead Exterminator - You are a fearless Zombie Slayer!";
+  if(finalScore >= 66 && finalScore < 99) msg = "Rank A: Zombie Slayer - You are a fearless warrior, hunting the undead with precision!";
+  if(finalScore === 100) msg = "Rank S: Apocalypse Conqueror - Humanity's last hope against the undead!";
 
   container.innerHTML = `
   <div class="container-collect-cgun">
@@ -175,7 +175,7 @@ async function collectCgun() {
   collectCgunBtn.textContent = "GRATS! Come back tomorrow!";
   moneySound.play();
   setTimeout(() => {
-      window.location.href = "https://codepen.io/Zehn1984/pen/BaqRxRK";
+      window.location.href = "https://vaishalia12.github.io/Z-Warriors/";
   }, 1000);
 }
 scoreElement.innerHTML = "score:";

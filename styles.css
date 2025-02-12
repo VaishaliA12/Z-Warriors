@@ -2,8 +2,8 @@
 
 /* EFEITO VIDRO FUMÊ */
 
-h3 {
-        color: red;
+.head {
+        color: #D70654;
         text-align: center;
         font-family: "Rubik Wet Paint", sans-serif;
         padding: 10px;
@@ -49,9 +49,9 @@ h3 {
     z-index: 1000;
     color: #fff;
     border: 2px solid #fff;
-    background: goldenrod;
+    background: #FBA518;
     padding: 15px 45px;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     outline: none;
     font-weight: 700;
   }
@@ -59,7 +59,7 @@ h3 {
   #bullets, #timer, #score {
     font-family: "Rubik Wet Paint", sans-serif;
     font-size: 40px;
-    color: #ff0000;
+    color: #D70654;
     margin-right: 20px;
   }
 
