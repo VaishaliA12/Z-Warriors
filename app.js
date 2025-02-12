@@ -1,8 +1,3 @@
-  
-/* Made with ❤️ by Anderson Campolina for the community
- * https://www.linkedin.com/in/anderson-campolina-688175225
- * This source code is used for study purposes and increment my portfolio only.
- */
    
 /* GLOBAL VARS */
 
